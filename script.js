@@ -6,8 +6,6 @@ var lowerCaseLetters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "
 var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var specialChar = ["/", "&", ".", "@","!","~", "-", "*", "%", ">", "+", ",", "<", "?"];
 
-alert("This application gives password with 8-50 characters according to user input.");
-
 var confirmLength = "";
 var upperCaseLetters;
 var lowerCaseLetters;
@@ -15,6 +13,11 @@ var confirmSpecialCharacter;
 var confirmNumericCharacter;
 
 
+alert("This application gives password with 8-50 characters according to user input.");
+
+function generatPassword() {
+  var confirmLength = prompt("How long do you want your password to be?")
+}
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
