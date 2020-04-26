@@ -14,7 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #c2cdd3;
 }
 
 .wrapper {
@@ -92,6 +92,10 @@ header {
 .btn:hover {
   background-color: hsl(360, 91%, 36%);
   color: hsl(0, 0%, 100%);
+}
+
+h2 {
+  text-align: center
 }
 
 button[disabled] {
