@@ -25,7 +25,7 @@ function generatePassword() {
     var confirmSpecialChar = confirm("Click OK to include special characters");
     var confirmNumeric = confirm("Click OK to include numeric");    
     var confirmLowerCase = confirm("Click OK to include lowercase letters");
-    var confirmUpperCase = confirm("Click OK to include uppercase characters");
+    var confirmUpperCase = confirm("Click OK to include uppercase letters");
  
       while(confirmUpperCase !== true && confirmLowerCase !== true && 
         confirmSpecialChar !== true && confirmNumeric !== true) {
@@ -33,8 +33,8 @@ function generatePassword() {
       alert("You must choose at least one character type");
     var confirmSpecialChar = confirm("Click OK to include special characters");
     var confirmNumeric = confirm("Click OK to include numeric");    
-    var confirmLowerCase = confirm("Click OK include lowercase characters");
-    var confirmUpperCase = confirm("Click OK to include uppercase characters");   
+    var confirmLowerCase = confirm("Click OK include lowercase letters");
+    var confirmUpperCase = confirm("Click OK to include uppercase letters");   
     } 
 
     var passwordCharacters = []
