@@ -37,27 +37,27 @@ function generatePassword() {
     var confirmUpperCase = confirm("Click OK to include uppercase letters");   
     } 
 
-    var passwordCharacters = []
+    var passwordVariables = []
       if (confirmUpperCase) {
-        passwordCharacters = passwordCharacters.concat(upperCase)
+        passwordVariables = passwordVariables.concat(upperCase)
       }
       
     if (confirmSpecialChar) {
-      passwordCharacters = passwordCharacters.concat(specialChar)
+      passwordVariables = passwordVariables.concat(specialChar)
     }
 
     if (confirmNumeric) {
-      passwordCharacters = passwordCharacters.concat(number)
+      passwordVariables = passwordVariables.concat(number)
     }
       
     if (confirmLowerCase) {
-      passwordCharacters = passwordCharacters.concat(lowerCase)
+      passwordVariables = passwordVariables.concat(lowerCase)
     }
 
     var randomPassword = ""
       
       for (var i = 0; i < confirmLength; i++) {
-        randomPassword = randomPassword + passwordCharacters[Math.floor(Math.random() * passwordCharacters.length)];
+        randomPassword = randomPassword + passwordVariables[Math.floor(Math.random() * passwordVariables.length)];
       }
       return randomPassword;
 }
