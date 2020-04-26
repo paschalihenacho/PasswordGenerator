@@ -18,7 +18,7 @@ function generatPassword() {
 }
 
 // a while loop to ensure user password lenth option is within the required range 
-while(confirmLength <= 8 || confirmLength >= 100) {
+while(confirmLength <= 7 || confirmLength >= 101) {
   alert("Please input the length between 8 to 100 characters.");
   var confirmLength = (prompt("How long do you want your password to be?"));
   } 
