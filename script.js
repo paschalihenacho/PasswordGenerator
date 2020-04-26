@@ -57,7 +57,8 @@ passwordVariables = passwordVariables.concat(lowerCase)
 var randomPassword = ""
 
 for (var i = 0; i < confirmLength; i++) {
-randomPassword = randomPassword + passwordVariables[Math.floor(Math.random() * passwordVariables.length)];
+randomPassword = randomPassword + passwordVariables[Math
+  .floor(Math.random() * passwordVariables.length)];
 }
 return randomPassword;
 }
