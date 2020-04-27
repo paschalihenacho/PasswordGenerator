@@ -15,7 +15,7 @@ var specialChar = ["/", "&", ".", "@","!","~", "-", "*",
 function generatePassword() {
 var confirmLength = (prompt("How long do you want your password to be?"));
 
-while(confirmLength <= 7 || confirmLength >= 128) {
+while(confirmLength <= 7 || confirmLength >= 129) {
 alert("Please enter the length between 8 to 128 characters.");
 var confirmLength = (prompt("How long do you want your password to be?"));
 } 
@@ -37,6 +37,7 @@ var confirmLowerCase = confirm("Click OK include lowercase letters");
 var confirmUpperCase = confirm("Click OK to include uppercase letters");   
 } 
 
+// Arrays of password variables
 var passwordVariables = []
 if (confirmUpperCase, confirmSpecialChar, confirmNumeric, confirmLowerCase) {
 passwordVariables = passwordVariables.concat(upperCase, specialChar, number, lowerCase)
