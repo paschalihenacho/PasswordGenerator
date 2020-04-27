@@ -38,20 +38,8 @@ var confirmUpperCase = confirm("Click OK to include uppercase letters");
 } 
 
 var passwordVariables = []
-if (confirmUpperCase) {
-passwordVariables = passwordVariables.concat(upperCase)
-}
-
-if (confirmSpecialChar) {
-passwordVariables = passwordVariables.concat(specialChar)
-}
-
-if (confirmNumeric) {
-passwordVariables = passwordVariables.concat(number)
-}
-
-if (confirmLowerCase) {
-passwordVariables = passwordVariables.concat(lowerCase)
+if (confirmUpperCase, confirmSpecialChar, confirmNumeric, confirmLowerCase) {
+passwordVariables = passwordVariables.concat(upperCase, specialChar, number, lowerCase)
 }
 
 var randomPassword = ""
