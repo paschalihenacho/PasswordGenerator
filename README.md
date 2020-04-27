@@ -7,3 +7,4 @@ User can input the password lenth at minimum of 8 characters and maximum of 100 
 # Credits:
 1. https://owasp.org/www-community/password-special-characters
 2. https://www.geeksforgeeks.org/how-to-generate-a-random-password-using-javascript/
+3. https://www.nayuki.io/page/random-password-generator-javascript
