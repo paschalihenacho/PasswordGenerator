@@ -1,3 +1,4 @@
+# LIVE: https://paschalihenacho.github.io/PasswordGenerator/
 # PasswordGenerator
 This application generates password based on user selected options.
 the password string can range from 8 to 100 characters.
